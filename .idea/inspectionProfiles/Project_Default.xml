@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6ShorthandObjectProperty" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Eslint" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="useSeverityFromConfigFile" value="false" />
+    </inspection_tool>
+    <inspection_tool class="HtmlFormInputWithoutLabel" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSAccessibilityCheck" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSCommentMatchesSignature" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSFileReferences" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSNonASCIINames" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedVariable" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSValidateJSDoc" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSValidateTypes" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="NonAsciiCharacters" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStatementEffectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
+      <shellcheck_settings value="SC2164" />
+    </inspection_tool>
+    <inspection_tool class="SuspiciousTypeOfGuard" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptRedundantGenericType" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>

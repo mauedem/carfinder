@@ -1,0 +1,28 @@
+version: '3.1'
+
+volumes:
+  pg_project:
+
+services:
+  pg_db:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=root
+      - POSTGRES_DB=carfinder
+    volumes:
+      - ./data/postgresql/:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  redis:
+    image: redis
+    ports:
+      - '6379:6379'
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
